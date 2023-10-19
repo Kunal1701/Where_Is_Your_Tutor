@@ -33,10 +33,10 @@
 
 ```
 # Clone this repository
-$ git clone https://github.com/your-username/MERN-Gurujii-dev.git
+$ git clone https://github.com/your-username/Where_Is_Your_Tutor.git
 
 # Go into the repository
-$ cd MERN-Gurujii-dev
+$ cd Where_Is_Your_Tutor
 
 # Install dependencies
 $ yarn dep0
