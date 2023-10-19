@@ -1,4 +1,4 @@
-<h1>GURU JI <a><img src="https://github.com/Samridhi-98/Images/blob/master/Images/teacher(1).svg" width="5%"></a></h1>  
+<h1>Where Is Your Tutor <a><img src="https://github.com/Samridhi-98/Images/blob/master/Images/teacher(1).svg" width="5%"></a></h1>  
 <p align="center"><img src="readme_assets/guruji_gif(1).gif"></p>
 
 <h2>About Us <a><img src="https://github.com/Samridhi-98/Images/blob/master/Images/reading.svg" width="4%"></a></h2>
