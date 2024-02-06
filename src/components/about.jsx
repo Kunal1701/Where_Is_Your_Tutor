@@ -7,7 +7,7 @@ import AOS from 'aos';
 import Reach from '../components/Reach';
 import Vision from '../components/ourvision';
 import ScrollToTop from './scrollToTop';
-import Contributors from './contributors';
+import image from '../assets/image.jpeg';
 import 'aos/dist/aos.css';
 class about extends Component {
   componentDidMount() {
@@ -25,6 +25,10 @@ class about extends Component {
           <br />
           <br />
           <br />
+          <br />
+          <div className='center'>
+            <img src={image} alt='' />
+          </div>
           <br />
           <div className='center'>
             <img data-aos='fade-up' src={Board} alt='' />
@@ -46,7 +50,6 @@ class about extends Component {
         </div>
         <Vision />
         <Reach />
-        <Contributors />
         <br />
       </>
     );

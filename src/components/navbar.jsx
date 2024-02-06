@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Clock from 'react-live-clock';
-import logo from '../assets/logo.png';
+import logo from '../assets/logo.jpeg';
 
 // import ReactDOM from 'react-dom';
 import {
@@ -123,9 +123,7 @@ class navbar extends Component {
               <Modal.Dialog centered>
                 <Modal.Content>
                   <Modal.Header>
-                    <Modal.Title>
-                      Register here (except class 2,3,4 all mandatory)
-                    </Modal.Title>
+                    <Modal.Title>Register here</Modal.Title>
                     <Modal.Close>
                       <span aria-hidden='true'>&times;</span>
                     </Modal.Close>
@@ -293,7 +291,7 @@ class navbar extends Component {
                         Contact Us
                       </Dropdown.Item>
                       <Dropdown.Divider />
-                      <Dropdown.Item
+                      {/* <Dropdown.Item
                         onClick={() => {
                           window.localStorage.setItem(
                             'muted',
@@ -307,7 +305,7 @@ class navbar extends Component {
                         {JSON.parse(window.localStorage.getItem('muted'))
                           ? 'Mute Chatbot'
                           : 'Unmute Chatbot'}
-                      </Dropdown.Item>
+                      </Dropdown.Item> */}
                     </Dropdown.Menu>
                   </Nav.Item>
                   <Nav.Item>

@@ -16,11 +16,13 @@ const userSchema = new mongoose.Schema({
     trim: true,
     required: true,
   },
-  subject: {
-    type: String,
-    trim: true,
-    required: true,
-  },
+  subject: [
+    {
+      type: String,
+      trim: true,
+      required: true,
+    },
+  ],
   tutor: {
     type: String,
     trim: true,
@@ -29,7 +31,6 @@ const userSchema = new mongoose.Schema({
   coaching: {
     type: String,
     trim: true,
-    required: true,
   },
   qualification: {
     type: String,
@@ -43,27 +44,27 @@ const userSchema = new mongoose.Schema({
   },
   class1: {
     type: Number,
-    min: 9,
+    min: 1,
     max: 12,
     trim: true,
     required: true,
   },
   class2: {
     type: Number,
-    min: 9,
+    min: 2,
     max: 12,
     trim: true,
   },
 
   class3: {
     type: Number,
-    min: 9,
+    min: 3,
     max: 12,
     trim: true,
   },
   class4: {
     type: Number,
-    min: 9,
+    min: 4,
     max: 12,
     trim: true,
   },

@@ -331,7 +331,7 @@ class form extends Component {
                     <Form.Input
                       id='c1'
                       type='number'
-                      placeholder="e.g. : '9' "
+                      placeholder="e.g. : '1' "
                       onChange={this.handleChange}
                       value={this.state.c1}
                     />
@@ -343,7 +343,7 @@ class form extends Component {
                     <Form.Input
                       id='c2'
                       type='number'
-                      placeholder="e.g. : '10' "
+                      placeholder="e.g. : '2' "
                       onChange={this.handleChange}
                       value={this.state.c2}
                     />
@@ -358,7 +358,7 @@ class form extends Component {
                     <Form.Input
                       id='c3'
                       type='number'
-                      placeholder="e.g. : '11' "
+                      placeholder="e.g. : '3' "
                       onChange={this.handleChange}
                       value={this.state.c3}
                     />
@@ -370,7 +370,7 @@ class form extends Component {
                     <Form.Input
                       id='c4'
                       type='number'
-                      placeholder="e.g. : '12' "
+                      placeholder="e.g. : '4' "
                       onChange={this.handleChange}
                       value={this.state.c4}
                     />
@@ -451,7 +451,7 @@ class form extends Component {
                 </Row>
                 <Row>
                   <Form.LabelCol col='sm-2' htmlFor='profile-pic'>
-                    Profile Picture
+                    Profile Picture 1
                   </Form.LabelCol>
                   <Col col='sm-10'>
                     <input
@@ -465,7 +465,7 @@ class form extends Component {
                 </Row>
                 <Row>
                   <Form.LabelCol col='sm-2' htmlFor='profile-pic'>
-                    Profile Picture
+                    Profile Picture 2
                   </Form.LabelCol>
                   <Col col='sm-10'>
                     <input

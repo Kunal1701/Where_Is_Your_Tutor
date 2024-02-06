@@ -24,7 +24,7 @@ class Sidebar extends Component {
             </a>
           </li>
           <li>
-            <a href='https://github.com/Namanl2001/MERN-Gurujii-dev'>
+            <a href='/#'>
               <span>Github</span>
               <GitHubIcon />
             </a>

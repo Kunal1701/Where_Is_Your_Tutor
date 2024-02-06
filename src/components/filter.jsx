@@ -48,7 +48,7 @@ class filter extends Component {
               value={this.state.pin}
               placeholder='Search by Pin-Code'
               mr='sm-9'
-              min='111111'
+              min='100000'
               max='999999'
             />
             <input title='Search' value='' type='submit' className='button' />
@@ -100,6 +100,11 @@ class filter extends Component {
               <Dropdown.Item onClick={this.props.phy}>Physics</Dropdown.Item>
               <Dropdown.Item onClick={this.props.che}>Chemistry</Dropdown.Item>
               <Dropdown.Item onClick={this.props.mat}>Maths</Dropdown.Item>
+              <Dropdown.Item onClick={this.props.eng}>English</Dropdown.Item>
+              <Dropdown.Item onClick={this.props.his}>History</Dropdown.Item>
+              <Dropdown.Item onClick={this.props.soc}>
+                Social Science
+              </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
 
@@ -113,10 +118,10 @@ class filter extends Component {
             </Dropdown.Button>
             <Dropdown.Menu aria-labelledby='dropdownMenuButton'>
               <Dropdown.Item onClick={this.props.allcls}>All</Dropdown.Item>
-              <Dropdown.Item onClick={this.props.c9}>9 th</Dropdown.Item>
-              <Dropdown.Item onClick={this.props.c10}>10 th</Dropdown.Item>
-              <Dropdown.Item onClick={this.props.c11}>11 th</Dropdown.Item>
-              <Dropdown.Item onClick={this.props.c12}>12 th</Dropdown.Item>
+              <Dropdown.Item onClick={this.props.c1}>1st</Dropdown.Item>
+              <Dropdown.Item onClick={this.props.c2}>2nd</Dropdown.Item>
+              <Dropdown.Item onClick={this.props.c3}>3rd</Dropdown.Item>
+              <Dropdown.Item onClick={this.props.c4}>4th</Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
         </div>
@@ -165,6 +170,13 @@ const mapDispatchtoProps = dispatch => {
     c11: () => dispatch({ type: 'C11' }),
     c12: () => dispatch({ type: 'C12' }),
 
+    eng: () => dispatch({ type: 'ENG' }),
+    his: () => dispatch({ type: 'HIS' }),
+    soc: () => dispatch({ type: 'SOC' }),
+    c1: () => dispatch({ type: 'C1' }),
+    c2: () => dispatch({ type: 'C2' }),
+    c3: () => dispatch({ type: 'C3' }),
+    c4: () => dispatch({ type: 'C4' }),
     clr: () => dispatch({ type: 'CLR' }),
   };
 };
