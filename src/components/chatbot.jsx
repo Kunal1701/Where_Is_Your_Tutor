@@ -1,18 +1,5 @@
 import React from 'react';
 import ChatBot from 'react-simple-chatbot';
-// import { ThemeProvider } from 'styled-components';
-
-// const theme = {
-//   background: '#f5f8fb',
-//   fontFamily: 'Helvetica Neue',
-//   headerBgColor: '#EF6C00',
-//   headerFontColor: '#fff',
-//   headerFontSize: '15px',
-//   botBubbleColor: '#EF6C00',
-//   botFontColor: '#fff',
-//   userBubbleColor: '#fff',
-//   userFontColor: '#4a4a4a',
-// };
 
 const config = {
   width: '400px',
@@ -66,7 +53,7 @@ const steps = [
   {
     id: 'student',
     message:
-      'Ok buddy, you are at the right place. At Gurujii you will find the best teachers.',
+      'Ok buddy, you are at the right place. You will find the best teachers.',
     trigger: 'loop',
   },
   {
@@ -78,7 +65,6 @@ const steps = [
 
 const ChatBotComponent = () => {
   return (
-    // <ThemeProvider theme={theme}>
     <ChatBot
       steps={steps}
       {...config}
@@ -90,7 +76,6 @@ const ChatBotComponent = () => {
         lang: 'en',
       }}
     />
-    // </ThemeProvider>
   );
 };
 

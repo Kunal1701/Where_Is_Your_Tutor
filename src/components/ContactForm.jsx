@@ -10,7 +10,7 @@ const ContactUsComponent = () => {
       subject: subject,
       message: message,
     };
-    const response = await fetch('http://localhost:5000/contactus/sendmail', {
+    const response = await fetch('http://localhost:5001/contactus/sendmail', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json;charset=utf-8',

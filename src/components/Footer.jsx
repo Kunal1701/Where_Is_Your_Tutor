@@ -12,7 +12,7 @@ function Footer() {
                 <i className='fa fa-map-marker'></i>
                 <div className='cta-text'>
                   <h4>Find us</h4>
-                  <span>1010 Avenue, sw 54321, Gwalior</span>
+                  <span>Arya College Of Engineering & I.T.</span>
                 </div>
               </div>
             </div>
@@ -42,11 +42,7 @@ function Footer() {
               <div className='footer-widget'>
                 <div className='footer-logo'>
                   <a href='/#'>
-                    <img
-                      src='faviconNew.png'
-                      className='img-fluid'
-                      alt='logo'
-                    />
+                    <img src='image.jpeg' className='img-fluid' alt='logo' />
                   </a>
                 </div>
                 <div className='footer-text'>
@@ -122,8 +118,8 @@ function Footer() {
             <div className='col-xl-6 col-lg-6 text-center text-lg-left'>
               <div className='copyright-text'>
                 <p>
-                  &copy; 2021 GURUJI | All Right Reserved | Terms Of Service |
-                  Privacy
+                  &copy; 2024 Where_Is_Your_Tutor | All Right Reserved | Terms
+                  Of Service | Privacy
                 </p>
               </div>
             </div>

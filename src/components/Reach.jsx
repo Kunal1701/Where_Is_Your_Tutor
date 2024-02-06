@@ -9,7 +9,7 @@ class cards extends Component {
   componentDidMount() {
     AOS.init({
       duration: 2000,
-      delay: 1500,
+      delay: 1000,
     });
   }
   render() {
@@ -32,14 +32,13 @@ class cards extends Component {
                 <br />
                 <br />
                 <h2 className='card-title text-center black'>
-                  <CountUp end={30} redraw={true}>
+                  <CountUp end={4} redraw={true}>
                     {({ countUpRef, start }) => (
                       <VisibilitySensor onChange={start} delayedCall>
                         <span ref={countUpRef} />
                       </VisibilitySensor>
                     )}
                   </CountUp>
-                  +
                 </h2>
                 <br />
                 <h5 className='text-center'>CONTRIBUTORS</h5>
@@ -57,17 +56,16 @@ class cards extends Component {
                 <br />
                 <br />
                 <h2 className='card-title text-center black'>
-                  <CountUp end={90} redraw={true}>
+                  <CountUp end={3} redraw={true}>
                     {({ countUpRef, start }) => (
                       <VisibilitySensor onChange={start} delayedCall>
                         <span ref={countUpRef} />
                       </VisibilitySensor>
                     )}
                   </CountUp>
-                  +
                 </h2>
                 <br />
-                <h5 className='text-center'>FORKS</h5>
+                <h5 className='text-center'>TEACHERS</h5>
               </div>
             </div>
           </div>
@@ -82,17 +80,16 @@ class cards extends Component {
                 <br />
                 <br />
                 <h2 className='card-title text-center yellow'>
-                  <CountUp end={30} redraw={true}>
+                  <CountUp end={0} redraw={true}>
                     {({ countUpRef, start }) => (
                       <VisibilitySensor onChange={start} delayedCall>
                         <span ref={countUpRef} />
                       </VisibilitySensor>
                     )}
                   </CountUp>
-                  +
                 </h2>
                 <br />
-                <h5 className='text-center'>STARS</h5>
+                <h5 className='text-center'>STUDENTS</h5>
               </div>
             </div>
           </div>
